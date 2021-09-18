@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octocats</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navigation Section -->
+        <div class="nav">
+            <img src="img/dojo_blk_white_small.jpg" alt="coding dojo logo" id="logo">
+            <ul id="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Header Section -->
+        <head>
+            <div id="info_panel">
+                <div id="heading">
+                    <h1 id="heading_title">Octocats</h1>
+                    <p id="heading_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa illo fugit earum ratione temporibus, voluptate, vel exercitationem animi suscipit similique necessitatibus accusamus iusto quisquam ipsam rem laboriosam accusantium numquam! Explicabo, impedit provident! Laboriosam, voluptatem quis.</p>
+                    <!-- This line was moved out of the <div id="heading"> staying inside the <div id="info_panel" to line 30 -->
+                    <!-- <img src="img/github.jpg" alt="github" id="github_cats"> -->
+                </div>
+                <img src="img/github.jpg" alt="github" id="github_cats">
+            </div>
+        </head>
+        <!-- Main Section -->
+        <main>
+            <h2 class="section_title">Meet The Team</h2>
+            <id id="card_section">
+                <div class="card">
+                    <img src="img/mona-the-rivetertocat.png" alt="mono the riverterocat" class="card_img">
+                    <h3 class="card_title">Mono The Riverterocat</h3>
+                    <p class="card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus assumenda facere eum exercitationem totam nostrum doloremque accusantium excepturi, amet culpa!</p>
+                    <button onclick="alert('You are about to remove this card')">Remove From Collection</button>
+                </div>
+                <div class="card" onclick=this.remove()>
+                    <img src="img/mona-the-rivetertocat.png" alt="mono the riverterocat" class="card_img">
+                    <h3 class="card_title">Mono The Riverterocat</h3>
+                    <p class="card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus assumenda facere eum exercitationem totam nostrum doloremque accusantium excepturi, amet culpa!</p>
+                    <button onclick="alert('You are about to remove this card')">Remove From Collection</button>
+                </div>
+                <div class="card">
+                    <img src="img/mona-the-rivetertocat.png" alt="mono the riverterocat" class="card_img">
+                    <h3 class="card_title">Mono The Riverterocat</h3>
+                    <p class="card_desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus assumenda facere eum exercitationem totam nostrum doloremque accusantium excepturi, amet culpa!</p>
+                    <button>Remove From Collection</button>
+                </div>
+            </id>
+        </main>
+        <!-- Footer Section -->
+        <h2 class="section_title">&#169; Copyright - 2021</h2>
+    </div>
+</body>
+</html>
