@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navigation">
+            <h1>Company Name</h1>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <h1 id="page_message">Welcome</h1>
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nesciunt perferendis fuga aspernatur dolorum</p>
+                <button onclick="alert(`This has been fun`)">Alert</button>
+            </div>
+            <div class="col-2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, nesciunt perferendis fuga aspernatur dolorum</p>
+                <button onclick="alert(this.innerText)">Alert</button>
+            </div>
+        </div>
+        <h3 id="footer">© Copyright - 2021</h3>
+        <div id="cookie_policy" onclick="this.remove()">
+            <div>
+                <h2 id="message_header">Stop! Cookie Time - Nom Nom Nom</h2>
+                <p id="message_desc">We like to personalize cookies and content, to provide social media features and to analyse our traffic. <a class="read_more" href="#">Read more...</a></p>
+            </div>
+            <button>I Accept</button>
+        </div>
+    </div>
+</body>
+</html>
