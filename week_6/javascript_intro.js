@@ -24,5 +24,5 @@ arr.push('Oak Park', 'IL', 60304)
 console.log(arr);
 arr.pop()
 console.log(arr);
-
+console.log(arr[2]);
 
