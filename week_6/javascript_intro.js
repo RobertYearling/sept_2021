@@ -26,4 +26,4 @@ arr.pop()
 console.log(arr);
 console.log(arr[2]);
 
-console.log(number);
+console.log(str);
