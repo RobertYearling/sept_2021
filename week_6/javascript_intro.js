@@ -19,7 +19,11 @@ console.log("First Value " + number);
 number = number + 5
 console.log("Second Value " + number);
 
+
 var arr = ['Rob', 'Yearling', 29 ]
+
+
+
 arr.push('Oak Park', 'IL', 60304)
 console.log(arr);
 arr.pop()
