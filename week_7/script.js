@@ -20,6 +20,7 @@ let arr = [ 3, 5, 6, 9]
 for ( let i = 2; i < arr.length; i++ ) {
     console.log(i)
 }
+console.log(arr);
 
 // while
 
