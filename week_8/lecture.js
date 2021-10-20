@@ -1,14 +1,14 @@
 // If Statement
 
-// if ( 3 < 1) {
-//     console.log('Link');
-// }
-// else if ( 2 == 2) {
-//     console.log('Gannon');
-// }
-// else {
-//     console.log('Zelda');
-// }
+if ( 3 < 1) {
+    console.log('Link');
+}
+else if ( 2 == 2) {
+    console.log('Gannon');
+}
+else {
+    console.log('Zelda');
+}
 
 // Equal Sign
 
@@ -16,24 +16,24 @@
 // ==  => comparison ( 2 == "2")
 // ===  => must equal ( 2 === 2 )
 
-// Functions
+Functions
 
-// function add(number1, number2) {
-    // let number1 = 5
-    // let number2 = 7
-    // console.log(number1 + number2);
-//     return number1 + number2
-// }
-// console.log(add(5, 7))
-// let result = add(5, 7)
-// console.log(result);
+function add(number1, number2) {
+    let number1 = 5
+    let number2 = 7
+    console.log(number1 + number2);
+    return number1 + number2
+}
+console.log(add(5, 7))
+let result = add(5, 7)
+console.log(result);
 
 // undefined or null
 
-// let x;
-// let x = null
-// x = 'Coding is fun!'
-// console.log(x);
+let x;
+let x = null
+x = 'Coding is fun!'
+console.log(x);
 
 // -----------------------------------------
 
@@ -46,11 +46,11 @@
 // We need values
 
 
-// for ( i = 0; i <= 20; i++ ) {
-//     if ( i % 5 == 0 ) {
-//         console.log(i);
-//     }
-// }
+for ( i = 0; i <= 20; i++ ) {
+    if ( i % 5 == 0 ) {
+        console.log(i);
+    }
+}
 
 // Sigma
 // Write code that will add all of the values from 1-100 onto
@@ -62,23 +62,23 @@
 // console.log each value - Done
 // sum == 5050
 
-// let sum = 0
-// // for ( i = 0; i <= 100; i++)
-// for ( i = 0; i < 101; i++) {
-//     console.log(i + " +");
-//     // sum = sum + i
-//     sum += i
-// }
-// console.log(sum);
+let sum = 0
+// for ( i = 0; i <= 100; i++)
+for ( i = 0; i < 101; i++) {
+    console.log(i + " +");
+    // sum = sum + i
+    sum += i
+}
+console.log(sum);
 
-// let sum = 0
-// // for ( i = 0; 1 <= 100; i++)
-// for ( i = 0; i < 101; i++) {
-//     console.log(i);
-//     // sum = sum + i
-//     sum += i
-// }
-// console.log(sum);
+let sum = 0
+// for ( i = 0; 1 <= 100; i++)
+for ( i = 0; i < 101; i++) {
+    console.log(i);
+    // sum = sum + i
+    sum += i
+}
+console.log(sum);
 
 // Array Reverse
 // Write a function that will reverse the values an array and return them.
