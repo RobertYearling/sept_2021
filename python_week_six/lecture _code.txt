@@ -1,0 +1,21 @@
+-- SELECT * FROM desserts;
+
+-- INSERT INTO desserts ( name )
+-- VALUES ("Pumpkin Pie" ), ("Key Lime Pie"), ("Cherry Pie"), ("Pecan Pie");
+
+-- SELECT * FROM customers;
+
+-- INSERT INTO customers ( dessert_id, first_name, last_name, email )
+-- VALUES ( 1, "Skyler", "King", "ilovepie@py.com" ),
+-- ( 1, "Adam", "Kahoe", "iloveapplepie@py.com" );
+
+-- INSERT INTO customers ( first_name, last_name, email, dessert_id ) VALUES ( "Ethan", "Samford", "ilovepecans", 5 );
+
+-- UPDATE customers SET email = 'ilovepecans@py.com' WHERE id = 3;
+
+-- DELETE FROM desserts WHERE id = 3;
+
+-- INSERT INTO desserts ( name ) VALUES ('Peach Pie');
+
+-- SELECT * FROM desserts
+-- LEFT JOIN customers ON desserts.id = customers.dessert_id;
