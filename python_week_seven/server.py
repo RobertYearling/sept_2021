@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -22,6 +22,14 @@ def person(first_name):
 def dessert_count(x, y):
     sum = x + y
     return str(sum)
+
+@app.route('/pie_list')
+def pie_list():
+    return render_template('index.html', num = 5 )
+
+@app.route('/pie_list/<int:num>')
+def pie_qty(num):
+    return render_template('index.html', num = num )
 
 if __name__=="__main__":
     app.run(debug=True)
